@@ -31,3 +31,41 @@ i++;
 System.out.println(total);
 }
 }
+
+Multiplication of first five numbers
+
+public class Addition {
+
+	public static void main(String[] args) {
+		
+		int total=1;
+		int i=1;
+		while(i<=5)
+		{
+			total=total*i;
+			i++;
+			
+		}
+		
+		
+		System.out.println(total);
+	}
+
+}
+
+Reverse addition of first 5 numbers
+
+class Multiplication
+{
+  public static void main(String[] args)
+  {
+    int no=5;
+    int i=1;
+    while(no>=1)
+    {
+      no=no*i;
+      no--;
+    }
+    System.out.println(i)
+    }
+}
