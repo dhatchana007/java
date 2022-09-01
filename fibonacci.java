@@ -24,3 +24,23 @@ eg;
     }
   }
         
+Fibonacci series without using 3rd variable
+First 10 variable print
+class Fibonacci_3rd_variable
+{
+  public static void main(String[] args)
+  {
+    int f=-1;
+    int s=1;
+    int i=1;
+    
+    while(i<=10)
+    {
+      System.out.println((f+s)+"");
+      s=f+s;
+      f=s-f;
+      i++;
+    }
+  }
+}
+    
